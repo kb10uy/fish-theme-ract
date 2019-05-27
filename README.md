@@ -1,6 +1,8 @@
 # fish-theme-ract
 Made by Japanese otaku
 
+![screenshot](example.png)
+
 ## Features
 * Username
 * Host
