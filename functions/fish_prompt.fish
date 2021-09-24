@@ -4,7 +4,7 @@ function fish_prompt
   # User and host
   set_color normal
   set_color -b 284D91 FCAAF5
-  printf ' [%s@%s] ' (whoami) (hostname)
+  printf ' [%s@%s] ' (whoami) (uname -n)
 
   # Current directory
   set_color normal
