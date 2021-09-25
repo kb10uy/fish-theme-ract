@@ -1,5 +1,7 @@
 function fish_prompt
   set -l stat $status
+  set -q ract_host_fg || set ract_host_fg 3D701A
+  set -q ract_host_bg || set ract_host_bg 284D91
 
   # User and host
   set_color normal
